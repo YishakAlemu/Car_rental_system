@@ -62,12 +62,12 @@ CREATE TABLE IF NOT EXISTS `cars` (
 --
 
 INSERT INTO `cars` (`car_id`, `car_name`, `car_type`, `image`, `hire_cost`, `capacity`, `status`) VALUES
-(1, 'BYD', 'BYD', 'car1.jpg', 3000000, 5, 'Available'),
-(2, 'Range Rover', 'LandRover', 'car2.jpg', 50000000, 6, 'Available'),
-(3, 'Vitz', 'Vitz', 'car3.jpg', 1,500,000, 6, 'Available'),
-(5, 'LandCruiser V8', 'LandCruiser ', 'images (2).jpg', 7,000,000, 5, 'Available'),
+(1, 'BYD', 'BYD', 'byd.webp', 3000000, 5, 'Available'),
+(2, 'Revo', 'Revo', 'revo.webp', 90000000, 6, 'Available'),
+(3, 'Vitz', 'Vitz', 'vitz.webp', 1,500,000, 6, 'Available'),
+(5, 'hilux', 'Hilux ', 'hilux.webp', 4,000,000, 5, 'Available'),
 (6, 'Toyota', 'Toyota', 'sonkort2.png', 3000000, 8, 'Available'),
-(7, 'Wedding Limousine', 'Wedding Limousine', 'images (3).jpg', 25000000, 10, 'Available');
+(7, 'dzire', 'Dzire', 'dzire.webp', 2000000, 10, 'Available');
 
 -- --------------------------------------------------------
 
